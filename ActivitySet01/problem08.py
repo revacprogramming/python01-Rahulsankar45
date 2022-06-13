@@ -33,3 +33,27 @@ print(s[0:6])
 a = "hello"
 b = a + "hello"
 print(b)
+n = ("REVa")
+a = n.find('a')
+print(a)
+greet = ' HELLO BOB '
+r= greet.lower()
+print(r)
+p = greet.replace('BOB','john')
+print(p)
+s = greet.lstrip()
+print(s) 
+
+
+
+x ='Reva cse@bangalore new' 
+y =x.find('@')
+print(y)
+sopp = x.find(' ',y)
+print(sopp)
+host = x[y+1:sopp]
+print(host)
+
+z = ["rohit,virat,rahul"]
+for x in z :
+  print('all the best',z)
